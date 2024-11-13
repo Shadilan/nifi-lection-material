@@ -1,0 +1,7 @@
+/docker-compose/single-nifi/nifi/content_repository/
+/docker-compose/single-nifi/nifi/database_repository/
+/docker-compose/single-nifi/nifi/flowfile_repository/
+/docker-compose/single-nifi/nifi/logs/
+/docker-compose/single-nifi/nifi/provenance_repository/
+/docker-compose/single-nifi/nifi/state/
+/docker-compose/single-nifi/nifi/conf/archive/
