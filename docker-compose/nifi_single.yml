@@ -8,6 +8,7 @@ services:
   registry:
     image: apache/nifi-registry:1.28.0
     container_name: registry
+    hostname: registry
     networks: [default]
     ports:
       - "18080:18080"
@@ -23,6 +24,7 @@ services:
   nifi:
     image: apache/nifi:latest
     container_name: nifi
+    hostname: nifi
     #restart: unless-stopped
     networks: [default]
     depends_on: [registry]
