@@ -6,7 +6,7 @@ networks:
 
 services:
   registry:
-    image: apache/nifi-registry:1.28.0
+    image: apache/nifi-registry:latest
     container_name: registry
     hostname: registry
     networks: [default]

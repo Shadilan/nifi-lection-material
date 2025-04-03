@@ -1,0 +1,448 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+            "id" : "31307489-5df0-3802-9d5e-9f5cec7e60a4",
+            "instanceIdentifier" : "01931002-4d84-162c-d384-c52e216de0f9",
+            "name" : "Execute Flow",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "b03e3fcf-6e9f-3c7d-9e00-a0e994584e4c",
+          "instanceIdentifier" : "01931003-4d84-162c-1df6-9674b053584f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+            "id" : "b6eacaec-579a-357f-b447-bc115058e804",
+            "instanceIdentifier" : "01931001-4d84-162c-f1fd-b1196eae3f5e",
+            "name" : "StartProcess",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+            "id" : "b953dd79-132d-3147-8917-cf0636d45689",
+            "instanceIdentifier" : "01931000-f279-1623-34fe-f8e1b3b538c6",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "bebaeedb-3950-3694-8175-d9d4d10f76c8",
+          "instanceIdentifier" : "01931004-4d84-162c-1f2e-1083f9af21ab",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "output" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+            "id" : "31307489-5df0-3802-9d5e-9f5cec7e60a4",
+            "instanceIdentifier" : "01931002-4d84-162c-d384-c52e216de0f9",
+            "name" : "Execute Flow",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+            "id" : "eddbbfb8-659b-35cb-a1f2-b5e7378f7c76",
+            "instanceIdentifier" : "01931000-4d84-162c-685d-1001c66c7126",
+            "name" : "failure",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "57ee9cc0-3cf4-3eac-80e4-f8ffb409c74f",
+          "instanceIdentifier" : "01931000-9f67-162c-d1c6-6b4ac5a0125f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure", "timeout" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+            "id" : "31307489-5df0-3802-9d5e-9f5cec7e60a4",
+            "instanceIdentifier" : "01931002-4d84-162c-d384-c52e216de0f9",
+            "name" : "Execute Flow",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "b953dd79-132d-3147-8917-cf0636d45689",
+          "instanceIdentifier" : "01931000-f279-1623-34fe-f8e1b3b538c6",
+          "position" : {
+            "x" : 176.0,
+            "y" : 600.0
+          }
+        } ],
+        "identifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "403ad5db-0193-1000-a7e9-04dea178bb8d",
+        "labels" : [ ],
+        "logFileSuffix" : "",
+        "name" : "Test Statless",
+        "outputPorts" : [ {
+          "allowRemoteAccess" : true,
+          "comments" : "",
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "eddbbfb8-659b-35cb-a1f2-b5e7378f7c76",
+          "instanceIdentifier" : "01931000-4d84-162c-685d-1001c66c7126",
+          "name" : "failure",
+          "position" : {
+            "x" : 696.0,
+            "y" : 344.0
+          },
+          "scheduledState" : "DISABLED",
+          "type" : "OUTPUT_PORT"
+        } ],
+        "parameterContextName" : "Test Parameters",
+        "position" : {
+          "x" : 1526.1019332161686,
+          "y" : -1189.1318101933216
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ "original" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-stateless-processor-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.28.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "31307489-5df0-3802-9d5e-9f5cec7e60a4",
+          "instanceIdentifier" : "01931002-4d84-162c-d384-c52e216de0f9",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "Execute Flow",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 24.0,
+            "y" : 320.0
+          },
+          "properties" : {
+            "Registry Bucket" : "study",
+            "NAR Directory" : "./lib",
+            "Dataflow Timeout" : "60 sec",
+            "Input Port" : "In",
+            "Content Storage Strategy" : "Store Content on Heap",
+            "Registry URL" : "http://registry:18080",
+            "Max Input FlowFile Size" : "1 MB",
+            "Dataflow Specification Strategy" : "Use NiFi Registry",
+            "Communications Timeout" : "15 secs",
+            "Failure Ports" : "Failure",
+            "Flow Name" : "Statless ProcessGroup",
+            "Work Directory" : "./work"
+          },
+          "propertyDescriptors" : {
+            "Max Ingest FlowFiles" : {
+              "displayName" : "Max Ingest FlowFiles",
+              "identifiesControllerService" : false,
+              "name" : "Max Ingest FlowFiles",
+              "sensitive" : false
+            },
+            "Registry Bucket" : {
+              "displayName" : "Registry Bucket",
+              "identifiesControllerService" : false,
+              "name" : "Registry Bucket",
+              "sensitive" : false
+            },
+            "NAR Directory" : {
+              "displayName" : "NAR Directory",
+              "identifiesControllerService" : false,
+              "name" : "NAR Directory",
+              "sensitive" : false
+            },
+            "Dataflow Timeout" : {
+              "displayName" : "Dataflow Timeout",
+              "identifiesControllerService" : false,
+              "name" : "Dataflow Timeout",
+              "sensitive" : false
+            },
+            "Input Port" : {
+              "displayName" : "Input Port",
+              "identifiesControllerService" : false,
+              "name" : "Input Port",
+              "sensitive" : false
+            },
+            "Stateless SSL Context Service" : {
+              "displayName" : "Stateless SSL Context Service",
+              "identifiesControllerService" : true,
+              "name" : "Stateless SSL Context Service",
+              "sensitive" : false
+            },
+            "Content Storage Strategy" : {
+              "displayName" : "Content Storage Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Content Storage Strategy",
+              "sensitive" : false
+            },
+            "Flow Version" : {
+              "displayName" : "Flow Version",
+              "identifiesControllerService" : false,
+              "name" : "Flow Version",
+              "sensitive" : false
+            },
+            "Max Ingest Data Size" : {
+              "displayName" : "Max Ingest Data Size",
+              "identifiesControllerService" : false,
+              "name" : "Max Ingest Data Size",
+              "sensitive" : false
+            },
+            "Krb5 Conf File" : {
+              "displayName" : "Krb5 Conf File",
+              "identifiesControllerService" : false,
+              "name" : "Krb5 Conf File",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE" ]
+              },
+              "sensitive" : false
+            },
+            "Registry URL" : {
+              "displayName" : "Registry URL",
+              "identifiesControllerService" : false,
+              "name" : "Registry URL",
+              "sensitive" : false
+            },
+            "Max Input FlowFile Size" : {
+              "displayName" : "Max Input FlowFile Size",
+              "identifiesControllerService" : false,
+              "name" : "Max Input FlowFile Size",
+              "sensitive" : false
+            },
+            "Status Task Interval" : {
+              "displayName" : "Status Task Interval",
+              "identifiesControllerService" : false,
+              "name" : "Status Task Interval",
+              "sensitive" : false
+            },
+            "Dataflow Specification Strategy" : {
+              "displayName" : "Dataflow Specification Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Dataflow Specification Strategy",
+              "sensitive" : false
+            },
+            "Communications Timeout" : {
+              "displayName" : "Communications Timeout",
+              "identifiesControllerService" : false,
+              "name" : "Communications Timeout",
+              "sensitive" : false
+            },
+            "Failure Ports" : {
+              "displayName" : "Failure Ports",
+              "identifiesControllerService" : false,
+              "name" : "Failure Ports",
+              "sensitive" : false
+            },
+            "Dataflow File" : {
+              "displayName" : "Dataflow File/URL",
+              "identifiesControllerService" : false,
+              "name" : "Dataflow File",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE", "URL" ]
+              },
+              "sensitive" : false
+            },
+            "Flow Name" : {
+              "displayName" : "Flow Name",
+              "identifiesControllerService" : false,
+              "name" : "Flow Name",
+              "sensitive" : false
+            },
+            "additional-nar-directories" : {
+              "displayName" : "Additional NAR Directories",
+              "identifiesControllerService" : false,
+              "name" : "additional-nar-directories",
+              "sensitive" : false
+            },
+            "Work Directory" : {
+              "displayName" : "Work Directory",
+              "identifiesControllerService" : false,
+              "name" : "Work Directory",
+              "sensitive" : false
+            },
+            "Registry SSL Context Service" : {
+              "displayName" : "Registry SSL Context Service",
+              "identifiesControllerService" : true,
+              "name" : "Registry SSL Context Service",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.stateless.ExecuteStateless",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.28.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "105a36ee-5c70-33aa-a9f5-0c040988e86e",
+          "identifier" : "b6eacaec-579a-357f-b447-bc115058e804",
+          "instanceIdentifier" : "01931001-4d84-162c-f1fd-b1196eae3f5e",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "StartProcess",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 21.499849182021478,
+            "y" : 71.00011584880275
+          },
+          "properties" : {
+            "character-set" : "UTF-8",
+            "File Size" : "0B",
+            "generate-ff-custom-text" : "Line1\nLine2\nLine3",
+            "Batch Size" : "1",
+            "Unique FlowFiles" : "false",
+            "Data Format" : "Text"
+          },
+          "propertyDescriptors" : {
+            "character-set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "character-set",
+              "sensitive" : false
+            },
+            "File Size" : {
+              "displayName" : "File Size",
+              "identifiesControllerService" : false,
+              "name" : "File Size",
+              "sensitive" : false
+            },
+            "mime-type" : {
+              "displayName" : "Mime Type",
+              "identifiesControllerService" : false,
+              "name" : "mime-type",
+              "sensitive" : false
+            },
+            "generate-ff-custom-text" : {
+              "displayName" : "Custom Text",
+              "identifiesControllerService" : false,
+              "name" : "generate-ff-custom-text",
+              "sensitive" : false
+            },
+            "Batch Size" : {
+              "displayName" : "Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Unique FlowFiles" : {
+              "displayName" : "Unique FlowFiles",
+              "identifiesControllerService" : false,
+              "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "Data Format" : {
+              "displayName" : "Data Format",
+              "identifiesControllerService" : false,
+              "name" : "Data Format",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "1 min",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : {
+        "Test Parameters" : {
+          "componentType" : "PARAMETER_CONTEXT",
+          "inheritedParameterContexts" : [ ],
+          "name" : "Test Parameters",
+          "parameters" : [ {
+            "description" : "",
+            "name" : "test_pass",
+            "provided" : false,
+            "sensitive" : true
+          }, {
+            "description" : "",
+            "name" : "test1",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "1"
+          } ]
+        }
+      },
+      "parameterProviders" : { }
+    }
+  }
+}
