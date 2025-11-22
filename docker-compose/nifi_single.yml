@@ -6,7 +6,7 @@ networks:
 
 services:
   registry:
-    image: apache/nifi-registry:1.28.0
+    image: apache/nifi-registry:latest
     container_name: registry
     hostname: registry
     networks: [default]
@@ -18,7 +18,7 @@ services:
       - NIFI_REGISTRY_FLOW_PROVIDER=file
       - NIFI_REGISTRY_FLOW_STORAGE_DIR=/opt/nifi-registry/flow_storage
     volumes:
-      - ./registry/conf:/opt/nifi-registry/nifi-registry-current/conf
+      #- ./registry/conf:/opt/nifi-registry/nifi-registry-current/conf
       - ./registry/database:/opt/nifi-registry/nifi-registry-current/database
       - ./registry/flow_storage:/opt/nifi-registry/flow_storage
   nifi:
@@ -48,7 +48,7 @@ services:
       - ./nifi/logs:/opt/nifi/nifi-current/logs
 
       # A custom nifi.properties file can be mounted as follows.
-      - ./nifi/conf:/opt/nifi/nifi-current/conf
+      - nifi-conf:/opt/nifi/nifi-current/conf
 
     environment:
       SINGLE_USER_CREDENTIALS_USERNAME: admin
@@ -261,3 +261,6 @@ services:
       # nifi.variable.registry.properties
       #   External properties files for variable registry. Supports a comma delimited list of file locations.
       #NIFI_VARIABLE_REGISTRY_PROPERTIES: ''
+
+volumes:
+  nifi-conf:

@@ -13,40 +13,26 @@
         "defaultBackPressureDataSizeThreshold" : "1 GB",
         "defaultBackPressureObjectThreshold" : 10000,
         "defaultFlowFileExpiration" : "0 sec",
+        "executionEngine" : "INHERITED",
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+        "identifier" : "e81ea33c-8631-36c6-b225-2fe7cf4de56a",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "f0e02f89-0192-1000-c509-cc5a355617b0",
-        "labels" : [ {
-          "componentType" : "LABEL",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
-          "height" : 40.0,
-          "identifier" : "ae42ae82-59b8-345c-bc3c-07c2385f3423",
-          "instanceIdentifier" : "f0f9c3ea-0192-1000-691b-83ffd0210bc9",
-          "label" : "Просто пример",
-          "position" : {
-            "x" : 542.0,
-            "y" : 181.0
-          },
-          "style" : {
-            "font-size" : "12px"
-          },
-          "width" : 144.0,
-          "zIndex" : 0
-        } ],
-        "logFileSuffix" : "",
-        "name" : "Example",
+        "instanceIdentifier" : "a7c3b818-019a-1000-3203-1ebc46108dd6",
+        "labels" : [ ],
+        "maxConcurrentTasks" : 1,
+        "name" : "Test",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 446.0,
-          "y" : 77.0
+          "x" : -493.43096743508863,
+          "y" : -557.6749758915057
         },
         "processGroups" : [ ],
         "processors" : [ ],
         "remoteProcessGroups" : [ ],
-        "variables" : { }
+        "scheduledState" : "ENABLED",
+        "statelessFlowTimeout" : "1 min"
       },
       "flowEncodingVersion" : "1.0",
       "parameterContexts" : { },

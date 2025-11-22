@@ -15,16 +15,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "f6041db9-d6cd-3f73-a7ea-272bc5735093",
-            "instanceIdentifier" : "f68b8070-0192-1000-35fa-3474556c97c9",
+            "instanceIdentifier" : "8a6a5e41-338b-313c-a0ef-6c78eb63cce5",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "c37ff040-deeb-36bc-b3cf-b520dba71be6",
-          "instanceIdentifier" : "f1c65a6f-0192-1000-ad7a-61f2c8ad6413",
+          "instanceIdentifier" : "4c1d6b90-ef25-37d8-c7f7-cbd0d2c9d486",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -33,9 +33,9 @@
           "prioritizers" : [ ],
           "selectedRelationships" : [ "" ],
           "source" : {
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "caffae2f-4ce6-39ae-a4bb-459a4707d0a6",
-            "instanceIdentifier" : "f1bbed32-0192-1000-5dfa-01130da79c7c",
+            "instanceIdentifier" : "0d9e403f-048f-3497-8ee2-ffe1c8eec113",
             "name" : "input",
             "type" : "INPUT_PORT"
           },
@@ -46,16 +46,16 @@
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "6530a5df-a473-3542-88a9-28f784044808",
-            "instanceIdentifier" : "f1c2107e-0192-1000-e072-10d3b43bb8cf",
+            "instanceIdentifier" : "a27a2c5c-3bb5-381d-cb57-3a7082c02cb4",
             "name" : "output",
             "type" : "OUTPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "533437ef-60d1-3910-a9f3-ad8e643fb691",
-          "instanceIdentifier" : "f68bc42f-0192-1000-e36d-439fefcd9337",
+          "instanceIdentifier" : "35d1b8eb-6f8f-316a-6f1d-2109e2b6e1eb",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -65,9 +65,9 @@
           "selectedRelationships" : [ "" ],
           "source" : {
             "comments" : "",
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "f6041db9-d6cd-3f73-a7ea-272bc5735093",
-            "instanceIdentifier" : "f68b8070-0192-1000-35fa-3474556c97c9",
+            "instanceIdentifier" : "8a6a5e41-338b-313c-a0ef-6c78eb63cce5",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
@@ -79,16 +79,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "f6041db9-d6cd-3f73-a7ea-272bc5735093",
-            "instanceIdentifier" : "f68b8070-0192-1000-35fa-3474556c97c9",
+            "instanceIdentifier" : "8a6a5e41-338b-313c-a0ef-6c78eb63cce5",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "40662a01-f63d-3f16-aa35-cd23e4804c7f",
-          "instanceIdentifier" : "f68b2c76-0192-1000-592d-daa9b1f6225d",
+          "instanceIdentifier" : "d854063c-cdea-3863-ab74-57a488f4600b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -98,9 +98,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "fde3777b-3095-3857-9a89-8705fea8f82a",
-            "instanceIdentifier" : "f68afa12-0192-1000-ef86-de99979ed158",
+            "instanceIdentifier" : "d3e684de-96f8-3dfa-dc92-0698a3732ef4",
             "name" : "[A] Update Attrubute",
             "type" : "PROCESSOR"
           },
@@ -112,16 +112,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "fde3777b-3095-3857-9a89-8705fea8f82a",
-            "instanceIdentifier" : "f68afa12-0192-1000-ef86-de99979ed158",
+            "instanceIdentifier" : "d3e684de-96f8-3dfa-dc92-0698a3732ef4",
             "name" : "[A] Update Attrubute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "1c8487bc-8d3e-30d8-b7b6-b5c8270d860b",
-          "instanceIdentifier" : "f68b1a2d-0192-1000-1ecc-10dbae0c1960",
+          "instanceIdentifier" : "eb53ad14-89dd-3d8c-d1ac-08f7011ff269",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -131,9 +131,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+            "groupId" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
             "id" : "cbfa94ae-5ddb-3b7b-8125-df07e177fa45",
-            "instanceIdentifier" : "f68a83d0-0192-1000-81e1-7d5bd5c0740f",
+            "instanceIdentifier" : "8c2eab00-cee9-3201-e4a5-4ccf85cb1a1b",
             "name" : "Start Process",
             "type" : "PROCESSOR"
           },
@@ -143,27 +143,29 @@
         "defaultBackPressureDataSizeThreshold" : "1 GB",
         "defaultBackPressureObjectThreshold" : 10000,
         "defaultFlowFileExpiration" : "0 sec",
+        "executionEngine" : "INHERITED",
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ {
           "componentType" : "FUNNEL",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "f6041db9-d6cd-3f73-a7ea-272bc5735093",
-          "instanceIdentifier" : "f68b8070-0192-1000-35fa-3474556c97c9",
+          "instanceIdentifier" : "8a6a5e41-338b-313c-a0ef-6c78eb63cce5",
           "position" : {
             "x" : 824.0,
             "y" : 336.0
           }
         } ],
-        "identifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+        "identifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
         "inputPorts" : [ {
           "allowRemoteAccess" : false,
           "componentType" : "INPUT_PORT",
           "concurrentlySchedulableTaskCount" : 1,
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "caffae2f-4ce6-39ae-a4bb-459a4707d0a6",
-          "instanceIdentifier" : "f1bbed32-0192-1000-5dfa-01130da79c7c",
+          "instanceIdentifier" : "0d9e403f-048f-3497-8ee2-ffe1c8eec113",
           "name" : "input",
+          "portFunction" : "STANDARD",
           "position" : {
             "x" : 728.0,
             "y" : -104.0
@@ -171,13 +173,13 @@
           "scheduledState" : "ENABLED",
           "type" : "INPUT_PORT"
         } ],
-        "instanceIdentifier" : "f0e02f89-0192-1000-c509-cc5a355617b0",
+        "instanceIdentifier" : "a01ff729-019a-1000-7ce9-dc01a7e46bee",
         "labels" : [ {
           "componentType" : "LABEL",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "height" : 40.0,
           "identifier" : "ae42ae82-59b8-345c-bc3c-07c2385f3423",
-          "instanceIdentifier" : "f0f9c3ea-0192-1000-691b-83ffd0210bc9",
+          "instanceIdentifier" : "337dbdf9-3ace-37b6-e396-61d9afcc40a3",
           "label" : "Просто пример",
           "position" : {
             "x" : 288.0,
@@ -190,15 +192,17 @@
           "zIndex" : 0
         } ],
         "logFileSuffix" : "",
+        "maxConcurrentTasks" : 1,
         "name" : "Example",
         "outputPorts" : [ {
           "allowRemoteAccess" : false,
           "componentType" : "OUTPUT_PORT",
           "concurrentlySchedulableTaskCount" : 1,
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "6530a5df-a473-3542-88a9-28f784044808",
-          "instanceIdentifier" : "f1c2107e-0192-1000-e072-10d3b43bb8cf",
+          "instanceIdentifier" : "a27a2c5c-3bb5-381d-cb57-3a7082c02cb4",
           "name" : "output",
+          "portFunction" : "STANDARD",
           "position" : {
             "x" : 728.0,
             "y" : 536.0
@@ -207,8 +211,8 @@
           "type" : "OUTPUT_PORT"
         } ],
         "position" : {
-          "x" : 448.0,
-          "y" : -8.0
+          "x" : 528.0,
+          "y" : -96.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -218,15 +222,15 @@
           "bundle" : {
             "artifact" : "nifi-standard-nar",
             "group" : "org.apache.nifi",
-            "version" : "1.28.0"
+            "version" : "2.6.0"
           },
           "comments" : "",
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "cbfa94ae-5ddb-3b7b-8125-df07e177fa45",
-          "instanceIdentifier" : "f68a83d0-0192-1000-81e1-7d5bd5c0740f",
+          "instanceIdentifier" : "8c2eab00-cee9-3201-e4a5-4ccf85cb1a1b",
           "maxBackoffPeriod" : "10 mins",
           "name" : "Start Process",
           "penaltyDuration" : "30 sec",
@@ -244,42 +248,49 @@
           "propertyDescriptors" : {
             "character-set" : {
               "displayName" : "Character Set",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "character-set",
               "sensitive" : false
             },
             "File Size" : {
               "displayName" : "File Size",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "File Size",
               "sensitive" : false
             },
             "mime-type" : {
               "displayName" : "Mime Type",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "mime-type",
               "sensitive" : false
             },
             "generate-ff-custom-text" : {
               "displayName" : "Custom Text",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "generate-ff-custom-text",
               "sensitive" : false
             },
             "Batch Size" : {
               "displayName" : "Batch Size",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "Batch Size",
               "sensitive" : false
             },
             "Unique FlowFiles" : {
               "displayName" : "Unique FlowFiles",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "Unique FlowFiles",
               "sensitive" : false
             },
             "Data Format" : {
               "displayName" : "Data Format",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "Data Format",
               "sensitive" : false
@@ -301,15 +312,15 @@
           "bundle" : {
             "artifact" : "nifi-update-attribute-nar",
             "group" : "org.apache.nifi",
-            "version" : "1.28.0"
+            "version" : "2.6.0"
           },
           "comments" : "",
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "PRIMARY",
-          "groupIdentifier" : "23df7e37-9727-3b72-b28c-9adafef39be2",
+          "groupIdentifier" : "559a3837-5ce7-3568-92cd-145e06b7e1ca",
           "identifier" : "fde3777b-3095-3857-9a89-8705fea8f82a",
-          "instanceIdentifier" : "f68afa12-0192-1000-ef86-de99979ed158",
+          "instanceIdentifier" : "d3e684de-96f8-3dfa-dc92-0698a3732ef4",
           "maxBackoffPeriod" : "10 mins",
           "name" : "[A] Update Attrubute",
           "penaltyDuration" : "30 sec",
@@ -324,24 +335,28 @@
           "propertyDescriptors" : {
             "Delete Attributes Expression" : {
               "displayName" : "Delete Attributes Expression",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "Delete Attributes Expression",
               "sensitive" : false
             },
             "Store State" : {
               "displayName" : "Store State",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "Store State",
               "sensitive" : false
             },
             "canonical-value-lookup-cache-size" : {
               "displayName" : "Cache Value Lookup Cache Size",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "canonical-value-lookup-cache-size",
               "sensitive" : false
             },
             "Stateful Variables Initial Value" : {
               "displayName" : "Stateful Variables Initial Value",
+              "dynamic" : false,
               "identifiesControllerService" : false,
               "name" : "Stateful Variables Initial Value",
               "sensitive" : false
@@ -358,7 +373,8 @@
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
-        "variables" : { }
+        "scheduledState" : "ENABLED",
+        "statelessFlowTimeout" : "1 min"
       },
       "flowEncodingVersion" : "1.0",
       "parameterContexts" : { },
